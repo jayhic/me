@@ -1,8 +1,15 @@
-body {
-    background-color: lightblue;
+#menu {
+	float: left;
+	width: 100px;
+	background-color: lightgray;
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
-} 
+#content {
+	float: left;
+	background-color: red;
+}
+
+#header, #footer {
+	clear: both;
+	background-color: green;
+}
