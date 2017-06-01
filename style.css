@@ -9,6 +9,7 @@
 .content {
 	float: left;
 	margin-left: 115px;
+	margin-right: 115px;
 }
 
 .header1{
@@ -26,8 +27,6 @@
 	font-style: bold;
 	font-size: 24px;
 	text-align: left;
-	padding: 15px;
-	text-align: center;
 }
 
 .footer{
@@ -38,7 +37,6 @@
 
 .back{
 	background: url(dia.png) left top repeat;
-	position: fixed;
 	height: 100%;
 	width: 100%;
 }
