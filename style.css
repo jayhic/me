@@ -31,10 +31,14 @@
 }
 
 .footer{
-	padding: 15px;
+	clear: both;
 	text-align: center;
+	padding: 15px;
 }
 
 .back{
 	background: url(dia.png) left top repeat;
+	position: fixed;
+	height: 100%;
+	width: 100%;
 }
