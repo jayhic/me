@@ -1,15 +1,32 @@
-#menu {
+.menu {
 	float: left;
 	width: 100px;
-	background-color: lightgray;
+	margin-top: 100px;
+	position: fixed;
+	padding-right:15px;
 }
 
-#content {
+.content {
 	float: left;
-	background-color: red;
+	height: 1000px;
+	margin-left: 115px;
 }
 
-#header, #footer {
+.header{
+	clear: both;
+	font-family: "Century";
+	font-style: italic;
+	font-size: 36px;
+	text-align: center;
+	padding: 15px;
+}
+
+.footer{
 	clear: both;
 	background-color: green;
+	margin-left: 100px;
+}
+
+.back{
+	background: url(dia.png) left top repeat;
 }
