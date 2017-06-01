@@ -18,6 +18,10 @@
 	background-color: white;
 }
 
+.menu a.active{
+	background-color: rgb(135,206,250);
+}
+
 .content {
 	float: left;
 	margin-left: 115px;
