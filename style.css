@@ -10,8 +10,11 @@
 	color: black;
 	padding-left: 15px;
 	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	display: block;
 	text-decoration: none;
+	font-family: "Century";
 }
 
 .menu a:hover{
@@ -30,7 +33,6 @@
 
 .header1{
 	clear: both;
-	font-family: "Century";
 	font-style: italic;
 	font-size: 36px;
 	text-align: center;
@@ -39,7 +41,6 @@
 
 .header2{
 	clear: both;
-	font-family: "Century";
 	font-style: bold;
 	font-size: 24px;
 	text-align: left;
@@ -55,4 +56,5 @@ body{
 	background: url(dia.png) left top repeat;
 	width: 100%;
 	margin: 0 auto;
+	font-family:"Century";
 }
