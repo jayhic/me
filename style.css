@@ -3,7 +3,7 @@
 	width: 100px;
 	margin-top: 100px;
 	position: fixed;
-	padding-right:15px;
+	padding:15px;
 }
 
 .content {
@@ -11,7 +11,7 @@
 	margin-left: 115px;
 }
 
-.header{
+.header1{
 	clear: both;
 	font-family: "Century";
 	font-style: italic;
@@ -20,10 +20,19 @@
 	padding: 15px;
 }
 
-.footer{
+.header2{
 	clear: both;
-	background-color: green;
-	margin-left: 100px;
+	font-family: "Century";
+	font-style: bold;
+	font-size: 24px;
+	text-align: left;
+	padding: 15px;
+	text-align: center;
+}
+
+.footer{
+	padding: 15px;
+	text-align: center;
 }
 
 .back{
