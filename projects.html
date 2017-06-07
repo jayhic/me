@@ -20,30 +20,46 @@
 <div class="content">
 	
 <div class="tab">
-	<button class="tablinks" onclick="openCity(event, 'London')">London</button>
-	<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-	<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+	<button class="tablinks" onclick="openProject(event, 'Library')">Library Projects</button>
+	<button class="tablinks" onclick="openProject(event, 'School')">School Projects</button>
+	<button class="tablinks" onclick="openProject(event, 'Personal')">Personal Projects</button>
 </div>
 
-<div id="London" class="tabcontent">
-	<h3>London</h3>
-	<p>London is the capital city of England.</p>
+<div id="Library" class="tabcontent">
+	<h3>Tool Guide</h3>
+	<p>Words</p>
+	<h3>MECCA Week Research</h3>
+	<p>Words</p>
+	<h3>Researcher 101</h3>
+	<p>Words</p>
+	<h3>Badging for Information Literacy</h3>
+	<p>Words</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-	<h3>Paris</h3>
-	<p>Paris is the capital of France.</p> 
+<div id="School" class="tabcontent">
+	<h3>Institutional Repository</h3>
+	<p>Words</p>
+	<h3>C++ Projects</h3>
+	<p>Words</p>
+	<h3>Raspberry Pi LAMP Stack</h3>
+	<p>Words</p>
+	<h3>Organizing Societies</h3>
+	<p>Words</p>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-	<h3>Tokyo</h3>
-	<p>Tokyo is the capital of Japan.</p>
+<div id="Personal" class="tabcontent">
+	<h3>This Website</h3>
+	<p>Words</p>
+	<h3>Iowa DeMolay Website</h3>
+	<p>Words</p>
+	<h3>Iowa Inquisitor</h3>
+	<p>Words</p>
 </div> 
 
 </div>
 
 <script>
-	function openCity(evt, cityName) {
+	function openProject(evt, projectName) {
 	var i, tabcontent, tablinks;
 
 	tabcontent = document.getElementsByClassName("tabcontent");
@@ -56,7 +72,7 @@
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
 	}
 
-	document.getElementById(cityName).style.display = "block";
+	document.getElementById(projectName).style.display = "block";
 	evt.currentTarget.className += " active";
 } 
 </script>

@@ -108,12 +108,10 @@ div.tab button:hover {
 	background-color: white;
 }
 
-/* Create an active/current tablink class */
 div.tab button.active {
 	background-color: rgb(135,206,250);
 }
 
-/* Style the tab content */
 .tabcontent {
 	display: none;
 	padding: 6px 12px;
