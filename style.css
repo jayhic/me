@@ -89,4 +89,34 @@ input[type=submit]:hover {
 	margin-right: 25px;
 } 
 
+div.tab {
+	overflow: hidden;
+	border: 1px solid lightgray;
+	background-color: lightgray;
+}
 
+div.tab button {
+	background-color: lightgray;
+	float: left;
+	border: none;
+	outline: none;
+	padding: 14px 16px;
+	transition: 0.3s;
+}
+
+div.tab button:hover {
+	background-color: white;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+	background-color: rgb(135,206,250);
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid lightgray;
+	border-top: none;
+} 
