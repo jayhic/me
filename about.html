@@ -16,6 +16,70 @@
 
 <div class="header1">How I got to where I am!</div> 
 
+<div class="content">
+<p>This is the part of the website where I attempt to humanize myself beyond 
+just a CV, listing of my projects, or application. I am a real person and I 
+do real things that I really enjoy! My life has had ups, downs, left, and 
+right turns. All of those have made me who I am today and I cannot think of 
+a thing I would have done differently because I have no idea how that would 
+have changed me!</p>
+<p>Librarians and other people who work in libraries are all interesting 
+people with a dizzying number of interests, hobbies, and experiences. But 
+what I have noticed about them is that the majority took winding roads 
+to become a librarian. Few said, ''I wanted to be a librarian when I 
+graduated high school.'' My path to where I am today is also a nonlinear 
+path with changing goals, life experiences, and interests which makes me who 
+I am today. These topics can be explored below.</p>
+	
+<div class="tab">
+	<button class="tablinks" onclick="openAbout(event, 'Education')" id="defaultOpen">Education</button>
+	<button class="tablinks" onclick="openAbout(event, 'Org')">Organizations</button>
+	<button class="tablinks" onclick="openAbout(event, 'Hobbies')">Hobbies and Interests</button>
+</div>
+
+<div id="Education" class="tabcontent">
+	<p>Words</p>
+
+</div>
+
+<div id="Org" class="tabcontent">
+	<h3>Scouting</h3>
+	<p>Words</p>
+	<h3>DeMolay</h3>
+	<p>Words</p>
+	<h3>Freemasonry</h3>
+	<p>Words</p>
+</div>
+
+<div id="Hobbies" class="tabcontent">
+	<h3>Travel</h3>
+	<p>Words</p>
+	<h3>Photography</h3>
+	<p>Words</p>
+	<h3>Maps and Globes</h3>
+	<p>Words</p>
+</div> 
+
+</div>
+
+<script>
+	function openAbout(evt, aboutName) {
+	var i, tabcontent, tablinks;
+
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	
+	document.getElementById(aboutName).style.display = "block";
+	evt.currentTarget.className += " active";
+} 
+</script>
 
 </body>
 </html> 
